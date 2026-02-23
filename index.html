@@ -8,10 +8,21 @@
     <body>
         <h1>STOCK PORTFOLIO!!!</h1>
         <hr>
-        <p >
+        <p>
             See below for stonks
         </p>
+        <form>
+            <label for="stockType">Stock Type (Label): </label>
+            <input type="text" id="stockType" name="StockType"><br><br>
+
+        </form>
     </body>
+    <style>
+        body {
+            background-color: rgb(30, 61, 30);
+            color: rgb(0, 217, 255);
+        }
+    </style>
     <script>
             const portfolio= [  ["23-Aug-2018", 43.50, 25, 'CAT', 92.45 ], 
              [ "15-Mar-2016", 42.80, 50, 'DD', 51.19 ], 
@@ -36,5 +47,6 @@
                 console.log(newpara)
                 document.body.appendChild(newpara)
              }
+             
         </script>
 </html>
